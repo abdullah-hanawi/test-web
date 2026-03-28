@@ -1,0 +1,53 @@
+stayle.css
+
+/* تنسيق عام للجسم */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* حاوية المحتوى لجعل الموقع في المنتصف */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* تنسيق رسالة الترحيب */
+.welcome-msg {
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* تنسيق العناوين */
+h1 { color: #2c3e50; border-bottom: 2px solid #27ae60; display: inline-block; padding-bottom: 5px; }
+h2 { color: #e67e22; margin-top: 30px; }
+h3 { color: #2980b9; }
+h4 { color: #7f8c8d; font-weight: normal; }
+h5 { color: #c0392b; font-size: 22px; font-weight: bold; text-decoration: underline; }
+
+/* تنسيق النصوص المختلفة */
+.text-styles {
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* إضافة تأثير عند مرور الماوس على العنوان */
+h2:hover {
+    color: #d35400;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
